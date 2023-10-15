@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Way</title>
+    <link rel="icon" type="image/png" href="./images/myLogo.png" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="loading-screen">
+        <div id="loader"></div>
+    </section>
+    
+    <div id="instructions">
+        <span>Click to play</span>
+        <br />
+        (ARROW KEYS = Move, MOUSE = Look, CLICK = Shoot )
+        <br />
+        <br />
+        ( Rule: Find 5 Balls and shoot them! )
+    </div>
+    <div id="win">
+        WIN
+    </div>
+    <div id="score">
+        Score: 0/5
+    </div>
+    <audio id="audio" loop>
+        <source src="./music/mystical-background-music-for-video-mysterious-background-for-vlog-168274.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="successSound">
+        <source src="./music/short-success-sound-glockenspiel-treasure-video-game-6346.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="winSound">
+        <source src="./music/tada-fanfare-a-6313.mp3" type="audio/mpeg">
+    </audio>
+    <script type="module" src="./js/main.js" defer></script>
+</body>
+</html>
