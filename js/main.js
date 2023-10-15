@@ -1,5 +1,5 @@
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.157.0/three.module.min.js';
-import * as CANNON from 'cannon-es';
+import * as CANNON from '../cannon-es';
 import { PointerLockControlsCannon } from './PointerLockControlsCannon.js'
 
 const instructions = document.getElementById('instructions')
