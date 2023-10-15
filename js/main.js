@@ -1,4 +1,4 @@
-import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.157.0/three.module.min.js';
+import * as THREE from './three.js';
 import * as CANNON from './cannon-es.js';
 import { PointerLockControlsCannon } from './PointerLockControlsCannon.js'
 
